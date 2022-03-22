@@ -1,0 +1,32 @@
+{
+  "name": "damona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Rey",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/voice": "^0.8.0",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.2.1",
+    "discord.js": "^13.6.0",
+    "distube": "^3.3.2",
+    "dotenv": "^16.0.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.1",
+    "leaf-utils": "^1.1.2",
+    "libsodium-wrappers": "^0.7.9",
+    "ms": "^2.1.3",
+    "nodemon": "^2.0.15",
+    "util": "^0.12.4",
+    "weather-js": "^2.0.0"
+  }
+}
